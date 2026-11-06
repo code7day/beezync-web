@@ -1,0 +1,11 @@
+{
+  "name": "@beezync/web",
+  "version": "1.0.0",
+  "description": "Cliente web de Beezync: Web Push, WebSocket y recibos",
+  "type": "module",
+  "main": "beezync.js",
+  "exports": { ".": "./beezync.js", "./sw": "./beezync-sw.js" },
+  "files": ["beezync.js", "beezync-sw.js", "README.md"],
+  "scripts": { "test": "node --test test/*.test.js" },
+  "license": "UNLICENSED"
+}
