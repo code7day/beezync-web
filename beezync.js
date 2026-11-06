@@ -106,6 +106,8 @@ export class BeezyncClient {
 
   connect() {
     this._closed = false;
+    if (this._ws && this._ws.readyState <= 1) return;
+    clearTimeout(this._timer);
     this._open();
   }
 

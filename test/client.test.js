@@ -62,3 +62,12 @@ test('socket resubscribes after reconnect and reconnects immediately on 4200', a
   assert.equal(FakeWS.instances[1].sent.length, 2);
   c.disconnect();
 });
+
+test('connect is idempotent while a socket is open', () => {
+  FakeWS.instances = [];
+  const c = new BeezyncClient({ ...cfg, WebSocket: FakeWS });
+  c.connect();
+  c.connect();
+  assert.equal(FakeWS.instances.length, 1);
+  c.disconnect();
+});
