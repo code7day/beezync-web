@@ -7,5 +7,5 @@
   "exports": { ".": "./beezync.js", "./sw": "./beezync-sw.js" },
   "files": ["beezync.js", "beezync-sw.js", "README.md"],
   "scripts": { "test": "node --test test/*.test.js" },
-  "license": "UNLICENSED"
+  "license": "MIT"
 }
