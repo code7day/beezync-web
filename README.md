@@ -41,3 +41,7 @@ Para canales privados, el servidor del cliente calcula `auth` con `POST /v1/api/
 npm test
 BASE_URL=... APP_ID=... PUBLIC_KEY=... SECRET_KEY=... node --test test/live.test.js
 ```
+
+## Autoría y licencia
+
+Beezync es un proyecto de Eduardo Flores. El servicio comercial de Beezync es respaldado y operado por ITM Soluciones Tecnológicas e Inversiones S.A.C. Este SDK se distribuye con licencia MIT (ver `LICENSE`).
