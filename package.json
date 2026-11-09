@@ -1,6 +1,6 @@
 {
   "name": "@beezync/web",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Cliente web de Beezync: Web Push, WebSocket y recibos",
   "type": "module",
   "main": "beezync.js",
