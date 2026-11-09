@@ -42,6 +42,6 @@ npm test
 BASE_URL=... APP_ID=... PUBLIC_KEY=... SECRET_KEY=... node --test test/live.test.js
 ```
 
-## Autoría y licencia
+## Licencia
 
-Beezync es un proyecto de Eduardo Flores. El servicio comercial de Beezync es respaldado y operado por ITM Soluciones Tecnológicas e Inversiones S.A.C. Este SDK se distribuye con licencia MIT (ver `LICENSE`).
+© 2026 Beezync. Licencia MIT (ver `LICENSE`).
